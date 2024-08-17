@@ -1,0 +1,36 @@
+/* LabelFilter styles */
+
+.label-filter {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .label-filter select {
+    font-size: 16px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    width: 200px;
+  }
+  
+  .label-filter select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(38, 143, 255, 0.2);
+  }
+  
+  .label-filter option {
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .label-filter select {
+      width: 60%;
+      font-size: 14px;
+      padding: 8px 10px;
+    }
+  }
+  

@@ -1,0 +1,83 @@
+/* Task List Container */
+.task-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-width: 500px;
+    margin: auto;
+  }
+
+  @media (max-width: 568px){
+    .task-list{
+        margin-left: 20px;
+        margin-right: 20px;
+        min-width: 300px;
+    }
+  }
+  
+  /* Task Item Styles */
+  .task-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Task Item Hover Effect */
+  .task-item:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Task Title Style */
+  .task-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+  }
+  
+  /* Checkbox Style */
+  .complete-checkbox {
+    margin-right: 10px;
+  }
+  
+  /* Task Labels Style */
+  .task-labels {
+    margin: 10px 0;
+  }
+  
+  .task-label {
+    display: inline-block;
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 3px 6px;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-size: 12px;
+  }
+  
+  /* Task Buttons Style */
+  .task-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .task-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .task-button:hover {
+    color: #007bff;
+  }
+  
+  /* Edit and Delete Button Icons */
+  .task-button svg {
+    font-size: 20px;
+  }
+  

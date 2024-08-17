@@ -1,0 +1,68 @@
+/* Container for the task item */
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  /* Task title styling */
+  .task-title {
+    font-size: 16px;
+    flex: 1;
+    margin-right: 20px;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }
+  
+  /* Complete button styling */
+  .complete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #007bff;
+    transition: color 0.3s ease;
+    margin-right: 10px;
+  }
+  
+  .complete-button:hover {
+    color: #ffffff;
+  }
+  
+  /* Task labels styling */
+  .task-labels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .task-label {
+    background-color: #007bff;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  
+  /* Buttons container */
+  .task-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Individual button styling */
+  .task-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+
+  
