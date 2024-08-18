@@ -7,7 +7,7 @@ This To-Do List Application allows users to manage tasks with customizable label
 ## Features
 
 - **Task Management**: Create, update, and delete tasks.
-- **Customizable Labels**: Add, remove, and filter tasks by labels.
+- **Customizable Labels**: Add, and filter tasks by labels.
 - **Responsive Design**: Optimized for various screen sizes.
 - **Task Completion**: Mark tasks as complete or incomplete.
 
@@ -23,3 +23,17 @@ This To-Do List Application allows users to manage tasks with customizable label
 
    ```bash
    git clone https://github.com/NivashiniRagupathi/TodoApplication.git
+   
+2. **Navigate to the Project Directory**
+
+   cd todo-application
+
+3. **Install Dependencies**
+
+   npm install
+
+4. **Start the Development Server**
+
+   npm start
+
+Open your browser and go to http://localhost:3000 to view the application.
